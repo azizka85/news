@@ -1,0 +1,23 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "News database seeding from newsapi.org",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "news",
+    "api",
+    "mongodb",
+    "database",
+    "mongoose"
+  ],
+  "author": "Aziz Kudaikulov",
+  "license": "ISC",
+  "dependencies": {
+    "cli-select": "^1.1.2",
+    "mongoose": "^5.11.19",
+    "node-fetch": "^2.6.1"
+  }
+}
